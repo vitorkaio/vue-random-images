@@ -22,11 +22,11 @@ class ImageService {
       this.unsplash.photos.getRandomPhoto({ width: 1920, height: 1080 })
       .then(res => res.json())
       .then(data => {
-        console.log(data);
+        // console.log(data);
         resolve(data);
       });
     }).catch(error => {
-      console.log(error);
+      // console.log(error);
       resolve(null);
     })
   }

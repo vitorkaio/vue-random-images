@@ -37,7 +37,7 @@ export default {
           img: iconsSizes[key]
         });
       }
-      console.log(listSizes);
+      // console.log(listSizes);
       return listSizes;
     }
   },
